@@ -1,5 +1,3 @@
-// je vais creer une fonction qui m'affichera une image random d'un chien en passant par une API https://dog.ceo/api/breeds/image/random
-
 const btn = document.querySelector('.button');
 const img = document.querySelector('.box img');
 const select = document.querySelector('#race');
@@ -29,8 +27,6 @@ btn.addEventListener('click', () => {
         })
     }
 })
-
-// au clic sur la photo, ca enregistre la photos dans la div favoris en creant une image a chaque fois que je clic sur une photo.
 
 img.addEventListener('click', () => {
     const imgFav = document.createElement('img');
